@@ -1,0 +1,62 @@
+export const secondarie = [
+  {
+    id: "grenade_pistol_gp31",
+    nome: "Grenade Pistol (GP-31)",
+    categoria: "Speciale",
+    tier: "S",
+    ap: 3,
+    danno: 650,
+    vDurabile: 650,
+    capienza: 1,
+    caricatori: 6,
+    totaleColpi: 7,
+    descrizione: "L'utilità di avere granate nello slot secondario è altissima. Ottima per chiudere spawner e fare danno d'emergenza.",
+    pro: ["Chiude spawner", "Altissima utilità", "Molto flessibile"],
+    contro: ["Munizioni limitate"]
+  },
+  {
+    id: "ultimatum_gp31",
+    nome: "Ultimatum (GP-31)",
+    categoria: "Speciale",
+    tier: "S",
+    ap: 8,
+    danno: 3000,
+    vDurabile: 3000,
+    capienza: 1,
+    caricatori: 2,
+    totaleColpi: 3,
+    descrizione: "Esplosione enorme e danno devastante. Di fatto un mini support weapon in tasca.",
+    pro: ["Cancella bersagli pesanti", "Potenza enorme"],
+    contro: ["AoE pericolosa", "Pochi colpi", "Stressa le risorse"]
+  },
+  {
+    id: "senator_p4",
+    nome: "Senator (P-4)",
+    categoria: "Pistola",
+    tier: "A",
+    ap: 4,
+    danno: 225,
+    vDurabile: 70,
+    capienza: 6,
+    caricatori: null,
+    totaleColpi: 46,
+    descrizione: "Pistola molto potente e ad alta penetrazione, utile anche contro bersagli speciali.",
+    pro: ["Molto potente", "Alta penetrazione", "Versatile contro bersagli speciali"],
+    contro: ["Caricatore piccolo"]
+  },
+  {
+    id: "verdict_p113",
+    nome: "Verdict (P-113)",
+    categoria: "Pistola",
+    tier: "A",
+    ap: 3,
+    danno: 140,
+    vDurabile: 32,
+    capienza: 10,
+    caricatori: 8,
+    totaleColpi: 90,
+    descrizione: "Secondaria versatile con buon burst e molte munizioni.",
+    pro: ["Versatile", "Molte munizioni", "Buon burst DPS"],
+    contro: ["Meno devastante di Senator o Ultimatum"]
+  }
+];
