@@ -1,3 +1,5 @@
+/ Wrapper semplice per Helldivers community API
+
 const PROVIDERS = [
   'https://helldiverstrainingmanual.com/api/v1',
   'https://api.helldivers2.dev/api/v1'
